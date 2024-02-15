@@ -10,7 +10,7 @@ import numpy as np
 
 a=pyttsx3.init("sapi5")
 voice=a.getProperty("voices")
-audio="hello prasanth sir ,welcome , I AM MARK YOUR ASSISTANT\n choose option to perform\n 1. DETAILS OF YOUR PC \n 2. IP ADDRESS OF YOUR DEVICE \n 3. DETAILS OF  A PHONE NUMBER \n 4. open camera \n 5. openning the camera in black and white mode\n 6. send a whatsapp message\n7. see the clock for time\n8. open the website "
+audio="hello sir ,welcome , I AM MARK YOUR ASSISTANT\n choose option to perform\n 1. DETAILS OF YOUR PC \n 2. IP ADDRESS OF YOUR DEVICE \n 3. DETAILS OF  A PHONE NUMBER \n 4. open camera \n 5. openning the camera in black and white mode\n 6. send a whatsapp message\n7. see the clock for time\n8. open the website "
 a.setProperty("voices",voice[1].id)
 print(audio)
 a.say(audio)
